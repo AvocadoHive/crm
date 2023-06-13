@@ -1,0 +1,43 @@
+.d-oj-header {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.d-oj-header .d-header-info {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.d-oj-header .d-header-options {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+    text-align: right;
+}
+
+.d-header-options button {
+    background: url(/images/blue-orange.jpg) no-repeat center top;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 1em;
+    padding: 15px 45px;
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.d-oj-header .d-header-info .d-oj-page-title {
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.d-oj-header .d-header-info .d-oj-page-sub-title {
+    font-style: italic;
+}

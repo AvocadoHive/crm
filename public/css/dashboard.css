@@ -1,0 +1,194 @@
+html {
+    background: #f7f7f7;
+}
+
+body {
+    margin: 0;
+}
+
+.d-main-base-content {
+    font-family: 'Dosis', sans-serif;
+}
+
+.d-main-navs {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    height: 92vh;
+    box-shadow: 0 0 12px #ccc;
+}
+
+
+.d-content-main {
+    max-height: 92vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.d-content-main::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.d-main-content {
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+    margin-left: 3%;
+}
+
+.d-content-header .left-header-part {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.d-content-header .left-header-part ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-content-header .left-header-part ul li {
+    display: inline-block;
+}
+
+.d-content-header .right-header-part {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.d-content-header .right-header-part > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Side menu */
+.d-logo-here img {
+    width: 160px;
+}
+
+.d-logo-here {
+    margin-bottom: 20px;
+}
+
+.d-meain-menu {
+    /* background: #29282d; */
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.d-meain-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-meain-menu ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.d-meain-menu ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+    transition: all .5s ease-out;
+}
+
+.d-meain-menu ul li a:hover {
+    background: #ea316f;
+    border-radius: 10px;
+    transition: all .5s ease-out;
+}
+
+.d-meain-menu ul li a i {
+    width: 24px;
+    text-align: center;
+}
+
+.d-content-header .left-header-part .d-breadcrumbs ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-breadcrumbs .d-old a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.d-breadcrumbs .d-separator i {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.d-breadcrumbs .d-current a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.d-search-part input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.d-login-user {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.d-site-settings i {
+    font-size: 22px;
+    color: #333;
+    margin-left: 10px;
+}
+
+.d-content-header {
+    /* margin-bottom: 40px;
+    margin-top: 40px; */
+}
+
+.d-card-item {
+    /* background: #fff;
+    box-shadow: 0 0 12px #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    /* padding: 10px; */
+}
+
+.d-card-inner {
+    
+}
+
+.d-dashboard-header .d-logo-here {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+
+.d-dashboard-header .d-head-ops {
+    display: inline-block;
+    width: 79%;
+    vertical-align: middle;
+}
+
+.d-dashboard-header {
+    background: #fff;
+    box-shadow: 0 0 12px #ccc;
+    position: relative;
+    z-index: 1;
+}
+
+.d-user-main {
+    margin-top: 40px;
+}
