@@ -52,6 +52,11 @@ Route::group(['prefix'=>'dashboard'], function(){
     Route::get('/client/list/{page}', 'ClientsController@getClientsListPage');
 
     Route::get('/client/{id}', 'ClientsController@getClientsPage');
+
+    /**
+     * Add new ticket for the client
+     */
+    Route::post('/ticket/new', 'TicketsController@save_new_ticket');
         
         
 

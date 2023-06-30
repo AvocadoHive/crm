@@ -42,7 +42,7 @@
                     <div class="d-meain-menu">
                         <ul>
                             <li><a href="/dashboard"><i class="fa-solid fa-gauge"></i> Dashboard</a></li>
-                            <li><a href="/dashboard/client"><i class="fa-solid fa-person-half-dress"></i> Clients</a></li>
+                            <li><a href="/dashboard/client/list/1"><i class="fa-solid fa-person-half-dress"></i> Clients</a></li>
                             <li><a href="/dashboard/applicants"><i class="fa-solid fa-person-half-dress"></i> Applicants</a></li>
                             <li><a href="#"><i class="fa-solid fa-screwdriver-wrench"></i> Settings</a></li>
                         </ul>

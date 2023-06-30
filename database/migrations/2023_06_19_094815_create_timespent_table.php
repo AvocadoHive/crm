@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('timespent', function (Blueprint $table) {
             $table->id();
+            $table->integer('task_id');
+            $table->string('time_start');
+            $table->string('time_end');
+            $table->integer('assignee');
             $table->timestamps();
         });
     }

@@ -86,7 +86,8 @@
                                 <label for="">Task Description</label>
                                 {{ Form::textarea('task_desc'); }}
                             </div>
-                            <div class="d-add-task-item submit-form-butotn">
+                            <div class="d-add-task-item submit-form-button">
+                                <a class="cancel_form" href="/dashboard/client/{{ $client['id'] }}">Cancel</a>
                                 <input type="submit" value="save">
                             </div>
                         </form>
@@ -95,7 +96,9 @@
             @endif
 
             @if($segment == 'info')
-                <h3 class="d-backlog-header">Backlog Task <a href="">Add New Task</a></h3>
+                <h3 class="d-backlog-header">Backlog Task <a href="/dashboard/client/{{ $client['id'] }}?segment=add_task">Add New Task</a></h3>
+
+
                 <div class="d-pending-tasks">
                     <div class="no-backlog-itme">No Task in Backlog</div>
                 </div>

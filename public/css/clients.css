@@ -307,3 +307,63 @@ h3.d-backlog-header a {
     border-radius: 80px;
     letter-spacing: 1px;
 }
+
+.d-add-task-item label {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1em;
+    margin-bottom: 3px;
+}
+
+.d-add-task-item {
+    margin-bottom: 20px;
+}
+
+.d-add-task-item input[type="text"], .d-add-task-item textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.d-add-task-item.submit-form-button {
+    text-align: right;
+}
+
+.d-add-task-item.submit-form-button input {
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 700;
+    line-height: 1em;
+    padding: 10px 30px;
+    border: 0 none;
+    background: #353638;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.d-add-task-item.submit-form-button a.cancel_form {
+    background: #f83434;
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 700;
+    line-height: 1em;
+    padding: 10px 30px;
+    border: 0 none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.add-new-task-inner .d-add-notes {
+    margin-bottom: 25px;
+}
