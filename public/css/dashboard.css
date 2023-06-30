@@ -36,6 +36,7 @@ body {
     width: 75%;
     vertical-align: top;
     margin-left: 3%;
+    padding-top: 30px;
 }
 
 .d-content-header .left-header-part {
@@ -191,4 +192,123 @@ body {
 
 .d-user-main {
     margin-top: 40px;
+}
+
+.d-oj-header {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.d-oj-header .d-header-info {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.d-oj-header .d-header-options {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+    text-align: right;
+}
+
+.d-header-options button,
+.d-header-options a {
+    background: url(/images/blue-orange.jpg) no-repeat center top;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 1em;
+    padding: 15px 45px;
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.d-oj-header .d-header-info .d-oj-page-title {
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.d-oj-header .d-header-info .d-oj-page-sub-title {
+    font-style: italic;
+}
+
+.d-client-list-header {
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.d-client-list-header .d-client-item {
+    display: inline-block;
+}
+
+.d-client-list-header .client-one-item,
+.d-client-list-item .client-one-item {
+    width: 7%;
+}
+
+.d-client-list-header .client-two-item,
+.d-client-list-item .client-two-item  {
+    width: 25%;
+}
+
+.d-client-list-header .client-three-item,
+.d-client-list-item .client-three-item {
+    width: 20%;
+}
+
+.d-client-list-header .client-four-item,
+.d-client-list-item .client-four-item {
+    width: 25%;
+}
+
+.d-client-list-header .client-five-item,
+.d-client-list-item .client-five-item {
+    width: 21%;
+    text-align: right;
+}
+
+.d-client-list-content {
+    padding: 10px 15px;
+}
+
+.d-client-list-item .d-client-item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.d-client-list-item .d-client-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.d-client-item .d-client-focus,
+.d-client-item .d-client-signed,
+.d-client-item .d-client-contact,
+.d-client-item .d-client-email {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.d-client-list-item .client-five-item a {
+    background: #333;
+}
+
+.d-client-list-item .client-five-item a {
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 23px;
 }

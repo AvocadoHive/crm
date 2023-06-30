@@ -31,7 +31,33 @@ Route::get('/', function () {
 Route::group(['prefix'=>'dashboard'], function(){
 
     Route::get('/', 'dashboardController@index');
-    Route::get('/client', 'ClientsController@getClientsPage');
+
+    /**
+     * clients routes
+     */
+    /**
+     * add new client form
+     */
+    Route::get('/client/add', 'ClientsController@addClientPage');
+    
+    /**
+     * process new client
+     */
+    Route::post('/client/add', 'ClientsController@processClient');
+
+    /**
+     * list of clients
+     * page - identify the paginated page loaded
+     */
+    Route::get('/client/list/{page}', 'ClientsController@getClientsListPage');
+
+    Route::get('/client/{id}', 'ClientsController@getClientsPage');
+        
+        
+
+    /**
+     * Applicants routes
+     */
     Route::get('/applicants', 'applicantController@list');
     Route::get('/applicant/{id}', 'applicantController@item');
     

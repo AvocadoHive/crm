@@ -14,6 +14,7 @@
 .d-profile-image {
     background: url(/images/landscape.jpg) no-repeat center bottom;
     padding: 150px 0 90px;
+    background-size: cover;
 }
 
 .d-profile-image img {
@@ -185,13 +186,13 @@
 
 .team-member-list .team-member-item {
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
     margin-bottom: 10px;
     background: #363638;
     color: #fff;
-    font-size: 56px;
+    font-size: 18px;
     font-weight: 100;
     text-align: center;
     border-radius: 160px;
@@ -199,7 +200,7 @@
 }
 
 .team-member-list .team-member-item span {
-    padding: 25px 0px;
+    padding: 10px 0px;
     display: block;
 }
 
@@ -247,4 +248,62 @@
     width: 13%;
     text-align: center;
     margin-top: 10px;
+}
+
+
+/* Style for client list */
+
+.d-add-client-item label {
+    display: block;
+    line-height: 1em;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.d-add-client-item input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 100;
+    width: 100%;
+}
+
+.d-add-client-item {
+    margin-bottom: 20px;
+}
+
+.d-add-client-item .d-client-date-signed > div {
+    display: inline-block;
+    width: 31%;
+    margin: 0 1%;
+}
+
+.d-add-client-item select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 100;
+    width: 100%;
+}
+
+.d-add-client-item.save_form input {
+    cursor: pointer;
+}
+
+h3.d-backlog-header {
+    position: relative;
+}
+
+h3.d-backlog-header a {
+    position: absolute;
+    right: 0;
+    border: 0;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 9px 20px;
+    border-radius: 80px;
+    letter-spacing: 1px;
 }
